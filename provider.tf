@@ -15,11 +15,11 @@ terraform {
   # IMPORANT! - Ensure the resources you are referencing (S3 Bucket and DynamoDB table) already exist in the AWS account and region you are currently in or it will fail.
 
   # backend "s3" {
-  #   bucket         = "aws-devops-core-tf-state-y991"
+  #   bucket         = "aws-devops-core-tf-state-mfh2"
   #   key            = "state/terraform.tfstate"
   #   region         = "us-east-1"
   #   encrypt        = true
-  #   dynamodb_table = "aws-devops-core-tf-state-lock-yegb"
+  #   dynamodb_table = "aws-devops-core-tf-state-lock-9crt"
   # }
 }
 
