@@ -192,7 +192,7 @@ module "module-aws-tf-cicd" {
               version  = "1"
               configuration = {
                 ConnectionArn     = var.codestar_connection_arn
-                FullRepositoryId  = "joeycloudio/example-production-workload"
+                FullRepositoryId  = "joeycloudio/example-prod-workload"
                 BranchName        = "main"
               }
               input_artifacts = []
